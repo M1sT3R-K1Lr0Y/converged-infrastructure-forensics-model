@@ -2,12 +2,12 @@
 
 The Converged Infrastructure Forensics Model (CIFM) is an investigative framework for reconstructing adversary activity across converged infrastructure ecosystems — cloud, telecom, edge, IoT/IIoT, and OT/ICS — using identity-centric analysis, distributed telemetry, and human-validated reasoning.
 
-## Current Version
+## Updated Version
 
-**v1.0RC — April 2026**
+**v1.1RC — April 2026**
 Release Candidate — Submitted for operational validation
 
-[Download the full white paper (PDF)](./CIFM_whitepaper_v1_0_RC.pdf)
+[Download the full white paper (PDF)](./CIFM_whitepaper_v1_1_RC.pdf)
 
 ## About the Framework
 
