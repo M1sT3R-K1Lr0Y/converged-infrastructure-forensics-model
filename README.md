@@ -7,7 +7,7 @@ The Converged Infrastructure Forensics Model (CIFM) is an investigative framewor
 First version of the CIFM (now archived for reference)
 
 **v1.1RC — April 2026**
-Release Candidate — Submitted for operational validation  (All new citations, submissions, and practitioner references should point to v1.1RC.)
+Release Candidate — Submitted for operational validation (Adds reference to a 2023 article published in the International Journal of Critical Infrastructure Protection ("Henriques et al. (2023), “A Forensics and Compliance Auditing Framework for Critical Infrastructure Protection") and further differentiates the CIFM as an investigative reconstruction framework that operates after or alongside detection, but does not provide detection or monitoring capability.  All new citations, submissions, and practitioner references should point to v1.1RC.)
 
 [Download the full white paper (PDF)](./CIFM_whitepaper_v1_1_RC.pdf)
 
