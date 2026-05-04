@@ -17,7 +17,7 @@ This project follows a structured versioning approach to preserve transparency, 
     - automation frameworks
     - privileged workloads
     - compromised workloads
-  - Establishes that runtime-spawned workloads may not appear in the original compose file, deployment manifest, task definition, or declared orchestration configuration.
+  - Establishes that runtime-spawned workloads sometimes may not appear in the original compose file, deployment manifest, task definition, or declared orchestration configuration.
 
 - Explicit distinction between:
   - **Declared State** — what the environment was intended to run
