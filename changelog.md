@@ -5,7 +5,7 @@ All notable changes to the Converged Infrastructure Forensics Model (CIFM) are d
 This project follows a structured versioning approach to preserve transparency, traceability, and evidentiary defensibility.
 
 ---
-##v1.3RC — May 2026
+v1.3RC — May 2026
 -----------------
 
 ### Added
