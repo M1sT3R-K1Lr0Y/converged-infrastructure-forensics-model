@@ -5,6 +5,177 @@ All notable changes to the Converged Infrastructure Forensics Model (CIFM) are d
 This project follows a structured versioning approach to preserve transparency, traceability, and evidentiary defensibility.
 
 ---
+##v1.3RC — May 2026
+-----------------
+
+### Added
+
+*   **Appendix B — Applying CIFM to AI-Driven Operational Incidents**
+    
+    *   Formalizes how CIFM applies when AI systems become part of the:
+        
+        *   initiating mechanism            
+        *   propagation vector            
+        *   decision-layer amplifier            
+        *   authority or workflow intermediary            
+        *   evidence chain            
+        *   investigative risk surface
+            
+    *   Extends CIFM to incidents involving:
+        
+        *   autonomous agents            
+        *   RAG pipelines            
+        *   model-connected tools            
+        *   AI-connected workflows            
+        *   MCP servers, plugins, and connectors            
+        *   AI-connected business systems
+            
+*   **AI-Driven Operational Incident UEM Extension**
+    
+    *   Adds optional AI-specific evidence fields to the UEM for:
+        
+        *   prompts and input context            
+        *   model outputs            
+        *   tool-call arguments and results            
+        *   retrieval context and vector-store evidence            
+        *   model metadata and configuration state            
+        *   agentic workflow traces            
+        *   delegated identities and approval paths            
+        *   downstream business-system effects            
+        *   visibility and reproducibility metadata
+            
+*   **Appendix B-1 — GTG-1002 Walkthrough Using CIFM v1.3RC**
+    
+    *   Provides a phase-by-phase CIFM walkthrough of a publicly reported AI-orchestrated campaign.
+        
+    *   Demonstrates application of CIFM across:
+        
+        *   infrastructure context assessment            
+        *   identity and control-plane analysis            
+        *   telemetry normalization            
+        *   behavioral reconstruction            
+        *   HITL-governed hybrid analysis            
+        *   narrative reconstruction            
+        *   attribution handoff
+            
+*   **Appendix B-2 — CIFM-AI Evidence Schema (UEM Extensions)**
+    
+    *   Defines structured AI-specific evidence categories for:
+        
+        *   prompt and session context            
+        *   model output and tool invocation            
+        *   model metadata            
+        *   RAG and retrieval evidence            
+        *   agentic workflow evidence            
+        *   identity and delegation evidence            
+        *   ephemeral workload evidence            
+        *   downstream system impact            
+        *   confidence and visibility metadata
+            
+*   **New glossary terms**
+    
+    *   **AI-Driven Operational Incident**
+        
+    *   **Actor-Adjacent Control Surface**
+        
+    *   **AI Evidence Chain**
+        
+*   **Expanded AI forensic-readiness requirements**
+    
+    *   Adds explicit preservation guidance for:
+        
+        *   prompts and inputs            
+        *   model outputs            
+        *   retrieval context            
+        *   tool-call logs            
+        *   delegated identity records            
+        *   approval paths            
+        *   downstream system-of-record changes
+            
+### Changed
+
+*   **Section 6 — Related Work and Prior Art**
+    
+    *   Expanded the treatment of AI-enabled systems as evidence sources.
+        
+    *   Added explicit reference to Appendix B as operational guidance for AI-driven operational incidents.
+        
+*   **Section 9.3.1 — Unified Evidence Manifest (UEM)**
+    
+    *   Updated to include the **AI-Driven Operational Incident UEM Extension** alongside the existing Ephemeral Workload Extension.
+        
+*   **Section 13 — Forensic Readiness in Converged Environments**
+    
+    *   Strengthened AI-related readiness guidance beyond model metadata alone.
+        
+    *   Clarified that operational AI evidence must include prompts, outputs, retrieval context, tool activity, delegated authority, approval paths, and downstream effects where available.
+        
+*   **Section 16.5 — Hybrid Intelligence Risks**
+    
+    *   Expanded to address incidents where AI systems are both:
+        
+        *   part of the evidence chain            
+        *   and part of the investigative workflow
+            
+    *   Extended HITL constraints to AI-linked evidence sources, retrieval pipelines, tool invocations, and AI-assisted reconstruction.
+        
+*   **Visibility and confidence handling**
+    
+    *   Extended CIFM’s visibility-bounded confidence logic to AI-driven incidents involving:
+        
+        *   provider-side opacity            
+        *   missing retrieval logs            
+        *   unavailable model internals            
+        *   incomplete orchestration traces            
+        *   non-reproducible outputs
+            
+*   **Identity and control-plane analysis for AI-mediated activity**
+    
+    *   Reinforced that AI-driven incidents should still be anchored in:
+        
+        *   delegated authority chains            
+        *   service accounts and temporary credentials            
+        *   approval and override state            
+        *   authorization scope            
+        *   downstream system-of-record actions
+            
+### Fixed
+
+*   Reduced ambiguity around how CIFM applies to AI-driven operational incidents without creating a separate forensic doctrine.
+    
+*   Clarified that prompts alone are insufficient to establish causality.
+    
+*   Clarified that the relevant AI evidentiary chain is:
+    
+    *   input
+    *   model/retrieval context
+    *   output
+    *   tool/action path
+    *   identity authority
+    *   downstream effect
+    *   corroborating telemetry
+        
+*   Clarified that AI systems should be treated as **actor-adjacent control surfaces** rather than presumed independent actors.
+    
+*   Clarified that AI-generated summaries cannot substitute for primary evidence.
+    
+*   Clarified that when provider-side telemetry, retrieval state, model internals, or tool-execution traces are unavailable, those gaps must be documented and carried forward as confidence impacts.
+    
+*   Clarified evidence weighting expectations by prioritizing:
+    
+    *   server-side logs
+    *   signed audit trails
+    *   preserved API records
+        
+    *   authoritative workflow recordsover:
+        
+    *   screenshots
+    *   copied text
+    *   recollections
+    *   AI-generated summaries
+    *   reconstructed transcripts
+
+---
 
 ## v1.2.1RC — May 2026
 ### Added
