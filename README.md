@@ -4,9 +4,9 @@ The Converged Infrastructure Forensics Model (CIFM) is an investigative framewor
 
 ## Version Control
 
-All versions and a summary of changes will be reflected in the [changelog](./changelog.md), and as such the changelog will be updated periodically as new revisions are made to the CIFM. All new citations, submissions, and practitioner references should point to the latest version publicly available (currently v1.3RC).
+All versions and a summary of changes will be reflected in the [changelog](./changelog.md), and as such the changelog will be updated periodically as new revisions are made to the CIFM. All new citations, submissions, and practitioner references should point to the latest version publicly available (currently v1.4RC).
 
-[Download the full white paper (PDF)](./CIFM_whitepaper_v1_3RC.pdf)
+[Download the full white paper (PDF)](./CIFM_whitepaper_v1_4RC.pdf)
 
 ## About the Framework
 
