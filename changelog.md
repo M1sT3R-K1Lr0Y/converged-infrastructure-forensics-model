@@ -5,6 +5,18 @@ All notable changes to the Converged Infrastructure Forensics Model (CIFM) are d
 This project follows a structured versioning approach to preserve transparency, traceability, and evidentiary defensibility.
 
 ---
+
+v1.4RC - May 2026
+-----------------
+
+### Added
+
+* Added Operational Observability and AI-Agent Telemetry guidance.
+* Expanded Phase 3 telemetry correlation, UEM mapping, forensic readiness, investigative anti-patterns, Appendix B AI-driven incident handling, glossary, and references to clarify how OpenTelemetry-compatible and other AI-agent telemetry sources may inform reconstruction without being treated as self-authenticating proof.
+* Added a taxonomy for agent traces, tool execution records, system logs, collector/backend records, and validated events, along with preservation and corroboration requirements for collector configuration, sampling, redaction, context propagation, timestamp provenance, downstream system-of-record validation, and provenance/integrity weighting.
+
+---
+
 v1.3RC — May 2026
 -----------------
 
