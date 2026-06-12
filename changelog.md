@@ -6,6 +6,21 @@ This project follows a structured versioning approach to preserve transparency, 
 
 ---
 
+v1.5RC - June 2026
+-----------------
+
+### Added
+
+* Added Section 9.3.3 (Shadow Systems, Shadow AI, and Reconstruction Debt), formalizing CIFM's treatment of ungoverned systems, shadow AI deployments, orphaned automation, non-human identity ownership gaps, blast radius drift, and investigative archaeology of ungoverned access.
+* Added Design Principle 8.8 (Shadow Environment Awareness).
+* Extended Section 9.1.1, Section 9.2, Section 12, and Section 13 with shadow environment and NHI investigative guidance.
+* Added glossary entries for Non-Human Identity, Shadow AI, Shadow IT, and Shadow Processing.
+* Added reference and acknowledgment for Niemi (2026).
+* Added future work items for practitioner implementation worksheets and a minimum viable training lab.
+* External review by Prof. Charlie Niemi (University of Tulsa / OCII) confirmed attribution and placement; no doctrinal revisions required.
+
+---
+
 v1.4RC - May 2026
 -----------------
 
